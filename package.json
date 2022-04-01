@@ -1,0 +1,23 @@
+{
+  "name": "my-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:CristopherGuzman/my-Page.git",
+  "author": "Cristopher Guzman <guzmncristopher@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@contentz/build": "2.5.7",
+    "@contentz/write": "3.13.2",
+    "@emotion/core": "^10.0.28",
+    "contentz": "3.14.1",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "serve": "11.3.2",
+    "watch": "1.0.2"
+  },
+  "scripts": {
+    "build": "contentz build"
+  }
+}
